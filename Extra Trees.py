@@ -8,7 +8,7 @@ from sklearn.impute import SimpleImputer
 
 TRAIN, TEST = "dataset_C_training.csv", "dataset_C_testing.csv"
 ID, TARGET = "respondent_id", "covid_vaccine"
-GROUP = "X"        # <-- replace with your group number before submitting
+GROUP = "T"        
 ORDER = 4
 
 train = pd.read_csv(TRAIN); test = pd.read_csv(TEST)
